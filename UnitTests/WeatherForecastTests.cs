@@ -16,7 +16,7 @@ public class WeatherForecastTests
         //When
         var forecastItems = forecastController.Get();
 
-        //THEN
+        //Then
         Assert.Equal(5, forecastItems.Count());
 
     }   
